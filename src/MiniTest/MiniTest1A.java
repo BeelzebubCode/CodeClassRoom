@@ -12,5 +12,6 @@ public class MiniTest1A {
         else System.out.println("zero");
 
         sc.close();
+
     }
 }
