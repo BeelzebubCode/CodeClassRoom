@@ -7,9 +7,9 @@ public class Lab8Task4 {
         System.out.println(shapeB.toString());
 
         //Rectangle r1 = (Rectangle) shapeA;
-        System.out.println("Width = "+shapeA.getWidth());
+        //System.out.println("Width = "+shapeA.getWidth());
 
         // Circle c1 = (Circle) shapeB;
-        System.out.println("Radius = "+shapeB.getRadius());
+        //System.out.println("Radius = "+shapeB.getRadius());
     }
 }

@@ -20,12 +20,4 @@ public class Shape {
     public double getArea(){
         return 0;
     }
-
-    public int getWidth(){
-        return 0;
-    }
-
-    public int getRadius(){
-        return 0;
-    }
 }

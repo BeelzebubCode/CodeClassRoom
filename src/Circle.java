@@ -6,7 +6,6 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
-    @Override
     public int getRadius(){
         return radius;
     }
