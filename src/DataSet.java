@@ -18,7 +18,7 @@ public class DataSet
    public void add(Measurable x)
    {
       sum = sum + x.getMeasure();
-      if (count == 0 || maximum.getMeasure()< x.getMeasure() )
+      if (count == 0 || maximum.getMeasure()< x.getMeasure())
          maximum = x;
       count++;
    }
