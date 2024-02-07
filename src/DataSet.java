@@ -30,7 +30,7 @@ public class DataSet
    public double getAverage()
    {
       if (count == 0) return 0;
-      else return count;
+      else return sum/count;
    }
 
    /**
