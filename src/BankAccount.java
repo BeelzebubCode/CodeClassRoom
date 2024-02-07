@@ -2,7 +2,7 @@
    A bank account has a balance that can be changed by 
    deposits and withdrawals.
 */
-public class BankAccount
+public class BankAccount implements Measurable
 {  
    /**
       Constructs a bank account with a zero balance.
@@ -18,7 +18,7 @@ public class BankAccount
    */
    public BankAccount(double balance)
    {   
-      balance = balance;
+      this.balance = balance;
    }
 
    /**
@@ -45,13 +45,13 @@ public class BankAccount
    */
    public double getBalance()
    {   
-     balance;
+     return balance;
    }
 
    public double getMeasure()
    {
       return balance;
    }
-
+   
    private double balance;
 }

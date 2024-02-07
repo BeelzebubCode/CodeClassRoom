@@ -1,14 +1,21 @@
-public class Coin{
+public class Coin implements Measurable {
     private double value;
     private String name;
+
     public Coin(double value, String name) {
-    value = value;
-    name = name;
+        this.value = value;
+        this.name = name;
     }
-    public getValue(){
-    return value;
+
+    public double getValue() {
+        return value;
     }
-    public String getName(){
-    name;
+
+    public String getName() {
+        return name;
     }
+
+    public double getMeasure() {
+        return value;
     }
+}
