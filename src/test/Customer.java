@@ -1,4 +1,4 @@
-package test;
+package Test;
 public class Customer {
     private String name;
     private boolean member;
