@@ -1,3 +1,5 @@
+package Lab11GUI;
+
 import java.util.Random;
 
 class Question {

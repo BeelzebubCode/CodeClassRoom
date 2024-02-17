@@ -1,3 +1,5 @@
+package Lab11GUI;
+
 import javax.swing.*;
 
 import java.awt.FlowLayout;
