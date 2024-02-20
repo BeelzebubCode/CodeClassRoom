@@ -1,5 +1,5 @@
 package MiniTest;
-public class Main {
+public class MainDrink {
     public static void main(String[] args) {
         Drink d1 = new Drink("orange", 10, 'c');
         System.out.println(d1);
